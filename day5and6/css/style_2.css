@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+}
+.resume {
+	margin-top: 50px;
+	text-align: center;
+	color: #fff; 
+	font-size: 50px;
+}
+
+.wrap {
+	overflow: hidden;
+	*zoom: 1;
+	width: 80%;
+	margin: 20px auto;
+	word-break: break-all; /*自动换行*/
+}
+
+.left {
+	float: left;
+	width: 20%;
+
+	/*高度和右边的高度一样*/
+	margin-bottom: -3000px;
+	padding-bottom: 3000px;
+
+	background-color: #65A5FA;
+}
+.right{
+	margin-left: 22%;
+/*	height: 719px;*/
+
+}
+
+.baseinfo td, .contat td {
+	padding-right: 50px;
+}
+.email, .github {
+	text-decoration: none;
+	color: #5265EC;
+}
+.ability p, .education p {
+	margin: 0;
+}
+.ability td, .education td {
+	padding-bottom: 20px;
+}
+.ability tr:last-of-type td, .education tr:last-of-type td {
+	padding-bottom: 0;
+}

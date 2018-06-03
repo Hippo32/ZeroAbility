@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>day7_1</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+	.wrapper {
+		width: 100%;
+	}
+	.left {
+		width: 30%;
+		background-color: red;
+	}
+	.right {
+		width: 70%;
+		background-color: blue;
+	}
+
+	/*方法一：float*/
+	/*.left {
+		float: left;
+	}
+	.right {
+		float: left;
+	}*/
+
+	/*方法二：position*/
+	/*.left {
+		position: absolute;
+	}
+	.right {
+		margin-left: 30%;
+	}*/
+
+	/*方法三：flex*/
+	.wrapper {
+		display: flex;
+	}
+	</style>
+</head>
+<body>
+	<!-- 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 -->
+	<div class="wrapper">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</body>
+</html>

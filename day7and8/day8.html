@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>day8</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.header {
+		width: 100%;
+		height: 80px;
+		background-color: #333333;
+	}
+	.headerCenter {
+		position: relative;
+		width: 960px;
+/*		background-color: red;*/
+		height: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		color: #fff;
+		font-size: 20px;
+/*		background-color: green;*/
+	}
+	.headerNav {
+		position: absolute;
+		right: 0;
+		top: 0;
+/*		background-color: green;*/
+	}
+	.header li {
+		display: inline-block;
+		list-style-type: none;
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	.header li a {
+		color: #fff;
+	}
+
+	.banner {
+		width: 100%;
+		height: 300px;
+		background-color: #66BB33;
+	}
+	.showCenter {
+		position: relative;
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.showNum {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin: 5px;
+	}
+	.Num {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		border: 1px solid #000;
+		text-align: center;
+		background-color: #B2DD99;
+		vertical-align: bottom;
+		line-height: 30px;
+	}
+	.active {
+		box-sizing: border-box;
+		height: 50px;
+		padding-top: 20px;
+		background-color: #E0F1D6;
+	}
+
+	.mainNav {
+		width: 100%;
+		height: 70px;
+		border-bottom: 1px solid #DDDDDD;
+	}
+	.navBar {
+		position: relative;
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+		font-size: 0;
+	}
+	.nav {
+		margin-top: 20px;
+		display: inline-block;
+		width: 118px;
+		height: 50px;
+		line-height: 50px;
+		border-top: 1px solid #DDD;
+		border-left: 1px solid #DDD;
+		border-right: 1px solid #DDD;
+		font-size: 12px;
+		text-align: center;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		background-color: #EEE;
+	}
+	.navNative {
+		border-bottom-color: #FFF;
+		background-color: #FFF;
+	}
+
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		width: 960px;
+		margin: 0 auto;
+	}
+	.content div {
+		flex: 1;
+		border: 1px solid #DDD;
+		padding: 80px;
+		margin: 5px;
+	}
+
+	.footer {
+		height: 120px;
+		width: 100%;
+		background-color: #666;
+		margin-top: 10px;
+		text-align: center;
+		color: #fff;
+		padding-top: 10px;
+	}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<div class="headerCenter">
+			<div class="logo">
+				Logo
+			</div>
+			<div class="headerNav">
+				<ul>
+					<li><a href="#">Github</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="showCenter">
+			<div class="showNum">
+				<div class="Num">1</div>
+				<div class="Num active">2</div>
+				<div class="Num">3</div>
+				<div class="Num">4</div>
+			</div>
+			
+		</div>
+	</div>
+	<nav class="mainNav">
+		<div class="navBar">
+			<div class="nav navNative">HOME</div>
+			<div class="nav">PROFILE</div>
+			<div class="nav">ABOUT</div>			
+		</div>
+	</nav>
+	<div class="content">
+		<div class="content1">This is Content 1</div>
+		<div class="content2">Maybe Content 2</div>
+		<div class="content3">Content3</div>
+		<div class="content4">Content4</div>
+		<div class="content5">Content5</div>
+		<div class="content6">Content6</div>
+		<div class="content7">Content7</div>
+		<div class="content8">Content8</div>
+		<div class="content9">Content9</div>
+		<div class="content10">Content10</div>
+	</div>
+	<footer class="footer">	&copy; 2018 ife.baidu.com</footer>
+</body>
+</html>
+

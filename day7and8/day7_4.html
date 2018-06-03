@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>day7_4</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+
+	/*方法一：绝对定位的样式*/
+	/*#left, #right {
+		position: absolute;
+		top: 0;
+		width: 200px;
+	}
+	#left {
+		left: 0;
+		background-color: red;
+	}
+	#right {
+		right: 0;
+		background-color: blue;
+	}
+	#center {
+		margin: 0 210px;
+		background-color: green;
+	}*/
+
+	/*方法二：margin负值的样式*/
+	/*#box {
+		float: left;
+		width: 100%;
+	}
+	#content {
+		background-color: green;
+	}
+	#left {
+		float: left;
+		margin-left: -100%;
+		width: 200px;
+		background-color: red;
+	}
+	#right {
+		float: left;
+		margin-left: -200px;
+		width: 200px;
+		background-color: blue;
+	}*/
+
+	/*方法三：自身浮动法的样式*/
+	/*#left {
+		float: left;
+		width: 200px;
+		background-color: red;
+	}
+	#right {
+		float: right;
+		width: 200px;
+		background-color: blue;
+	}
+	#center {
+		width: 100%;
+		background-color: green;
+	}*/
+
+	/*方法四：flex的样式*/
+	#box {
+		display: flex;
+	}
+	#left {
+		width: 200px;
+		background-color: red;
+	}
+	#right {
+		width: 200px;
+		background-color: blue;
+	}
+	#center {
+		flex: 1;
+		background-color: green;
+	}
+	</style>
+</head>
+<body>
+	<!-- 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分随浏览器宽度变化而自适应变化 -->
+
+	<!-- 方法一：绝对定位 -->
+	<!-- <div id="left"></div>
+	<div id="center"></div>
+	<div id="right"></div> -->
+
+	<!-- 方法二：margin负值 -->
+	<!-- <div id="box">
+		<div id="content"></div>
+	</div>
+	<div id="left"></div>
+	<div id="right"></div> -->
+
+	<!-- 方法三：自身浮动法 -->
+	<!-- <div id="left"></div>
+	<div id="right"></div>
+	<div id="center"></div> -->
+
+	<!-- 方法四：flex -->
+	<div id="box">
+		<div id="left"></div>
+		<div id="center"></div>
+		<div id="right"></div>
+	</div>
+	
+
+	<!-- done! -->
+</body>
+</html>

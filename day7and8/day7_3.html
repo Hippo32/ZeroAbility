@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>day7_3</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			height: 200px;
+		}
+		/*方法一：float*/
+/*		.left {
+			margin-right: 200px;
+			background-color: red;
+		}
+		.right {
+			float: right;
+			width: 200px;
+			background-color: blue;
+		}*/
+
+		/*方法二：position*/
+		/*.left {
+			margin-right: 200px;
+			background-color: red;
+		}
+		.right {
+			position: absolute;
+			right: 0;
+			width: 200px;
+			background-color: blue;
+		}*/
+
+		/*方法三：flex*/
+		.wrapper {
+			display: flex;
+		}
+		.left {
+			flex: 1;
+			background-color: red;
+		}
+		.right {
+			width: 200px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<!-- 实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化 -->
+
+	<!-- 方法一：float -->
+	<!-- <div class="wrapper">
+		<div class="right">vbbfasdfas</div>
+		<div class="left">aa</div>
+	</div> -->
+
+	<!-- 方法二：position -->
+	<!-- <div class="right"></div>
+	<div class="left"></div> -->
+
+	<!-- 方法三：flex -->
+	<div class="wrapper">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</body>
+</html>

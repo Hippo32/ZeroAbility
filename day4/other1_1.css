@@ -1,0 +1,53 @@
+html {
+  line-height: 1.5;
+}
+
+.mainbody {
+  max-width: 960px;
+  margin: 2em auto;
+  border-radius: 3px;
+  box-shadow: 5px 7px 10px 10px #999999;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.mainbody .information {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.mainbody .information .title {
+  font-size: 22px;
+  font-weight: bold;
+  border: 0;
+}
+
+.mainbody .information>ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills,
+.experience,
+.projects,
+.education {
+  padding: 0px 20px 10px 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.time {
+  float: right;
+}

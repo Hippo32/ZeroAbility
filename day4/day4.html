@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>第三天 让简历有点色彩吧</title>
+	<style type="text/css">
+		body {
+			font-family:arial,Georgia,Serif;
+			background-image: -webkit-linear-gradient(left, #97DFF2 50%, #fff);
+			background-image: -o-linear-gradient(left, #97DFF2 50%, #fff);
+			background-image: linear-gradient(to right, #97DFF2 50%, #fff);	
+		}
+		h2 {
+			height: 100px;
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 100px;
+			text-shadow: 5px 5px 5px #FF0000;
+		}
+		li {
+			font-size: 12px;
+			line-height: 2;
+			list-style-type: none;
+
+		}
+		a {
+			text-decoration: none;
+			color: #3F48CC;
+		}
+		a:visited {
+			color: #000;
+		}
+		a:hover {
+			color: #DA8CA6;
+		}
+		.bold {
+			font-weight: bold;
+		}
+		.desc {
+			color: #636363;
+		}
+		.skill {
+			display: block;
+			border-bottom-style: dotted;
+			border-color: #4ECFF1;
+		}
+		.skill+ol li {
+			list-style-type: decimal;
+		}
+		.experience {
+			display: block;
+			border-bottom-style: dotted;
+			border-color: #4ECFF1;
+		}
+		.task {
+			display: block;
+			border-bottom-style: dotted;
+			border-color: #4ECFF1;
+		}
+		.wrapper {
+			border-style: solid;
+			border-width: 5px;
+			width: 50%;
+			margin: 0 auto;
+			padding: 6px;
+		}
+		
+	</style>
+</head>
+<body>
+	<h2>简历/前端开发</h2>
+	<ul class="wrapper">
+		<li>
+			<span class="bold">姓名：</span>
+			<span class="desc">张三</span>
+		</li>
+		<li>
+			<span class="bold">电话：</span>
+			<span class="desc">12345678912</span>
+		</li>
+		<li>
+			<span class="bold">E-mail:</span>
+			<span class="desc">123@126.com</span>
+		</li>
+		<li>
+			<span class="bold">专业：</span>
+			<span class="desc">软件工程</span>
+		</li>
+		<li>
+			<span class="bold">学历：</span>
+			<span class="desc">本科</span>
+		</li>
+		<li>
+			<span class="bold">毕业学校：</span>
+			<span class="desc">XX大学</span>
+		</li>
+		<li>
+			<span class="bold skill">个人技能：</span>
+			<ol>
+				<li class="desc">了解模块化开发，良好的编码习惯</li>
+				<li class="desc">熟悉html、css、js，能独立开发简单页面</li>
+				<li class="desc">了解过bootstrap、vue、npm</li>
+				<li class="desc">会写sql语句</li>
+			</ol>
+		</li>
+		<li>
+			<span class="bold experience">实习经历：</span>
+			<ul>
+				<li class="desc">XX公司实习生  2017.07-2017.09</li>
+				<li class="desc">工作内容：负责了XX项目，使用了XX技术，解决了XX问题</li>
+			</ul>
+		</li>
+		<li>
+			<span class="bold task">实践项目：</span>
+			<ul>
+				<li class="desc">项目一：用了什么技术，作出了什么东西</li>
+				<li class="desc">项目二：用了什么技术，拿了什么奖</li>
+				<li class="desc">项目三：用了什么技术，还有什么地方可以完善的</li>
+			</ul>
+		</li>
+		<li>
+			<span class="bold">个人展示：</span>
+			<span class="desc">博客地址：<a href="https://blog.csdn.net/hualala_32" target="_blank">https://blog.csdn.net/hualala_32</a></span>
+		</li>
+	</ul>
+</body>
+</html>
